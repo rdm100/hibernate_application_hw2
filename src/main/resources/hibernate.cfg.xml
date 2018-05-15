@@ -8,13 +8,13 @@
         <property name="hbm2ddl.auto">create</property>
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <!--<property name="connection.url">jdbc:postgresql://localhost/</property>-->
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/file_system</property>
+        <property name="connection.url">jdbc:postgresql://localhost/file_system</property>
         <property name="connection.username">postgres</property>
         <property name="connection.password">dbb1dbb2</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
         <property name="connection.pool_size">1</property>
         <property name="show_sql">true</property>
-        <mapping class = "models.File"/> <!-- ADDED -->
-        <mapping class = "models.Folder"/> <!-- ADDED -->
+        <mapping class = "com.codeclan.models.File"/> <!-- ADDED -->
+        <mapping class = "com.codeclan.models.Folder"/> <!-- ADDED -->
     </session-factory>
 </hibernate-configuration>

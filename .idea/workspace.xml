@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9120a3-a1b5-4bfd-b083-a3480af45736" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/db/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/db/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/models/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,13 +15,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FilesFoldersStarter$Runner__1_.ic" NAME="Runner (1) Coverage Results" MODIFIED="1526416864908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.codeclan.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="313">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -33,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -42,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/models/File.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#500#501#0" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
@@ -119,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="527">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,10 +167,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codeclan/models/File.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codeclan/db/DBFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codeclan/models/Folder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Hibernate Start Point" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1280" />
@@ -365,7 +379,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -375,9 +389,10 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.49684212" weight="0.3295302" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5031579" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -461,16 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/models/Folder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -498,7 +503,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/models/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#500#501#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
@@ -524,17 +529,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="313">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
